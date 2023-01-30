@@ -1,0 +1,7 @@
+**/.vs
+**/Libraries
+**/x64
+YouTubeOpenGL.sln
+YouTubeOpenGL.vcxproj
+YouTubeOpenGL.vcxproj.filters
+YouTubeOpenGL.vcxproj.user
