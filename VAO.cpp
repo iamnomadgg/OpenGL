@@ -8,7 +8,7 @@ VAO::VAO()
 }
 
 //Links a VBO Attribute to the VAO using a certain layout
-void VAO::LinkAttrib(VBO vbo, GLuint layout, GLuint numComponents, GLenum type, GLsizeiptr stride, void* offset)
+void VAO::LinkAttrib(VBO& vbo, GLuint layout, GLuint numComponents, GLenum type, GLsizeiptr stride, void* offset)
 {
 	vbo.Bind();
 
