@@ -12,8 +12,8 @@ public:
 	//Constructor that generates a Vertex Array Object ID
 	VAO();
 
-	//Links a VBO to the VAO using a certain layout
-	void LinkVBO(VBO vbo, GLuint layout);
+	//Links a VBO Attribute to the VAO using a certain layout
+	void LinkAttrib(VBO vbo, GLuint layout, GLuint numComponents, GLenum type, GLsizeiptr stride, void* offset);
 	//Binds the VAO
 	void Bind();
 	//Unbinds the VAO
