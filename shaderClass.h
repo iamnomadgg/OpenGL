@@ -7,7 +7,8 @@
 #include <sstream>
 #include <iostream>
 #include <cerrno>
-#include "glad/glad.h"
+
+#include <glad/glad.h>
 
 std::string get_file_contents(const char* filename);
 
